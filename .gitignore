@@ -77,6 +77,13 @@ describe('gitWorkflow', () => {
   
      output = fopen(argv[2], "wb");
      if (!output)
+}
+
+#include<staio.h>
+#include<conio,h>
+
+{
+
          return -1;
   
      if (argc == 4) {
